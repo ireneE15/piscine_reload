@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_sqrt.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: iescalon <iescalon@student.42urduliz.com>  +#+  +:+       +#+        */
+/*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/14 12:25:52 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/14 13:53:10 by iescalon         ###   ########.fr       */
+/*   Updated: 2023/12/20 10:51:51 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
