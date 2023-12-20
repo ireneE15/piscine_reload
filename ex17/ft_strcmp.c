@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: iescalon <iescalon@student.42urduliz.com>  +#+  +:+       +#+        */
+/*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/14 15:54:11 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/15 13:24:57 by iescalon         ###   ########.fr       */
+/*   Updated: 2023/12/20 12:18:11 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,7 @@ int	ft_strcmp(char *s1, char *s2)
 	int	i;
 
 	i = 0;
-	while (s1[i] == s2[i] && s1[i] != '\0') /*Compara cada carácter de s1 y s2 mientras
-											  sean iguales y no hayan llegado al final
-											  de ninguna de las dos cadenas.*/
+	while (s1[i] == s2[i] && s1[i] != '\0')
 	{
 		i++;
 	}

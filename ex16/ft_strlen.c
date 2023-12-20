@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: iescalon <iescalon@student.42urduliz.com>  +#+  +:+       +#+        */
+/*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/14 15:35:11 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/14 15:52:59 by iescalon         ###   ########.fr       */
+/*   Updated: 2023/12/20 12:20:04 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdio.h>
 
 int	ft_strlen(char *str)
 {
@@ -22,8 +24,7 @@ int	ft_strlen(char *str)
 	return (i);
 }
 
-#include <stdio.h>
-
+/*
 int	main(void)
 {
 	int		lon;
@@ -33,3 +34,4 @@ int	main(void)
 	lon = ft_strlen(string);
 	printf ("Longitud del string: %d\n", lon);
 }
+*/

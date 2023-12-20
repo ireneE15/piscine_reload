@@ -6,7 +6,7 @@
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/20 10:14:41 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/20 11:55:17 by iescalon         ###   ########.fr       */
+/*   Updated: 2023/12/20 12:21:54 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	*ft_range(int min, int max)
 {
 	int	i;
 	int	*str;
-	
+
 	i = 0;
 	if (min >= max)
 	{
@@ -32,7 +32,7 @@ int	*ft_range(int min, int max)
 	}
 	return (str);
 }
-
+/*
 int main(void)
 {
     int max;
@@ -54,3 +54,4 @@ int main(void)
     free(result);
     return (0);
 }
+*/

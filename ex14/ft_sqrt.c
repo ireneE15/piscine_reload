@@ -6,7 +6,7 @@
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/14 12:25:52 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/20 10:51:51 by iescalon         ###   ########.fr       */
+/*   Updated: 2023/12/20 12:14:38 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int	ft_sqrt(int nb)
 	}
 	return (0);
 }
-
+/*
 #include <stdio.h>
 
 int	main(void)
@@ -42,3 +42,4 @@ int	main(void)
 	printf ("La raíz cuadrada de %d es %d", num, result);
 	return (0);
 }
+*/

@@ -6,7 +6,7 @@
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/14 11:53:25 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/18 17:13:41 by iescalon         ###   ########.fr       */
+/*   Updated: 2023/12/20 12:14:18 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int	ft_recursive_factorial(int nb)
 	}
 	return (nb * ft_recursive_factorial(nb - 1));
 }
-
+/*
 #include <stdio.h>
 
 int	main(void)
@@ -35,3 +35,4 @@ int	main(void)
 	printf("El factorial de %d es %d\n", number, result);
 	return (0);
 }
+*/

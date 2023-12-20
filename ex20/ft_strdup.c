@@ -6,7 +6,7 @@
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/18 10:39:42 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/20 10:00:17 by iescalon         ###   ########.fr       */
+/*   Updated: 2023/12/20 12:16:48 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int	ft_strlen(char *str)
 	}
 	return (i);
 }
-
+/*
 char	*ft_strdup(char *src)
 {
 	int		i;
@@ -57,3 +57,4 @@ int	main(void)
 	free(copia);
 	return (0);
 }
+*/
