@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: iescalon <iescalon@student.42urduliz.com>  +#+  +:+       +#+        */
+/*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/14 14:43:43 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/15 12:52:05 by iescalon         ###   ########.fr       */
+/*   Updated: 2023/12/20 10:44:08 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
