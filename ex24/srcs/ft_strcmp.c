@@ -6,14 +6,14 @@
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/21 10:44:48 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/21 10:51:06 by iescalon         ###   ########.fr       */
+/*   Updated: 2023/12/21 10:54:59 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_strcmp(char *str1, char *str2)
 {
 	int	i;
-	
+
 	i = 0;
 	while (str1[i] == str2[i] && str1[i] != '\0')
 	{

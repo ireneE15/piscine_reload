@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_swap.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: iescalon <iescalon@student.42urduliz.com>  +#+  +:+       +#+        */
+/*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/12 13:06:43 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/12 13:28:45 by iescalon         ###   ########.fr       */
+/*   Updated: 2023/12/21 12:35:03 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdio.h>
 
 void	ft_swap(int *a, int *b)
 {
@@ -19,8 +21,6 @@ void	ft_swap(int *a, int *b)
 	*b = n;
 }
 /*
-#include <stdio.h>
-
 int	main(void)
 {
 	int	n;

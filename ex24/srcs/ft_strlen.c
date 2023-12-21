@@ -1,37 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/12/12 12:13:10 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/21 12:38:36 by iescalon         ###   ########.fr       */
+/*   Created: 2023/12/21 10:55:34 by iescalon          #+#    #+#             */
+/*   Updated: 2023/12/21 12:30:09 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-void	ft_putchar(char c)
+int	ft_strlen(char *str)
 {
-	write(1, &c, 1);
-}
+	int	i;
 
-void	ft_print_numbers(void)
-{
-	int	n;
-
-	n = '0';
-	while (n <= '9')
+	i = 0;
+	while (str[i] != '\0')
 	{
-		ft_putchar(n);
-		n++;
+		i++;
 	}
+	return (i);
 }
-/*
-int	main(void)
-{
-	ft_print_numbers();
-	return(0);
-}
-*/

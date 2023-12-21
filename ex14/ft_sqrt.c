@@ -6,9 +6,11 @@
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/14 12:25:52 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/20 12:14:38 by iescalon         ###   ########.fr       */
+/*   Updated: 2023/12/21 12:41:31 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdio.h>
 
 int	ft_sqrt(int nb)
 {
@@ -30,8 +32,6 @@ int	ft_sqrt(int nb)
 	return (0);
 }
 /*
-#include <stdio.h>
-
 int	main(void)
 {
 	int	num;

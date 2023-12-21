@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_div_mod.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: iescalon <iescalon@student.42urduliz.com>  +#+  +:+       +#+        */
+/*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/12 13:29:25 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/12 14:25:35 by iescalon         ###   ########.fr       */
+/*   Updated: 2023/12/21 12:35:26 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdio.h>
 
 void	ft_div_mod(int a, int b, int *div, int *mod)
 {
@@ -16,8 +18,6 @@ void	ft_div_mod(int a, int b, int *div, int *mod)
 	*mod = a % b;
 }
 /*
-#include <stdio.h>
-
 int	main(void)
 {
 	int	n;

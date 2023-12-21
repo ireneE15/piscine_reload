@@ -1,37 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
+/*   ft.h                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/12/12 12:13:10 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/21 12:38:36 by iescalon         ###   ########.fr       */
+/*   Created: 2023/12/21 11:05:06 by iescalon          #+#    #+#             */
+/*   Updated: 2023/12/21 11:11:08 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#ifndef FT_H
+# define FT_H
 
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+void	ft_putchar(char c);
+void	ft_putstr(char *str);
+int		ft_strcmp(char *str1, char *str2);
+int		ft_strlen(char *str);
+void	ft_swap(int *a, int *b);
 
-void	ft_print_numbers(void)
-{
-	int	n;
-
-	n = '0';
-	while (n <= '9')
-	{
-		ft_putchar(n);
-		n++;
-	}
-}
-/*
-int	main(void)
-{
-	ft_print_numbers();
-	return(0);
-}
-*/
+#endif

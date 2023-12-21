@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_iterative_factorial.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: iescalon <iescalon@student.42urduliz.com>  +#+  +:+       +#+        */
+/*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/12 14:25:31 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/14 11:50:49 by iescalon         ###   ########.fr       */
+/*   Updated: 2023/12/21 12:40:16 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdio.h>
 
 int	ft_iterative_factorial(int nb)
 {
@@ -30,8 +32,6 @@ int	ft_iterative_factorial(int nb)
 	}
 }
 /*
-#include <stdio.h>
-
 int	main(void)
 {
 	int	result;

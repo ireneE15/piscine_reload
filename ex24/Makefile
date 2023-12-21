@@ -6,43 +6,43 @@
 #    By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/12/21 10:18:10 by iescalon          #+#    #+#              #
-#    Updated: 2023/12/21 10:27:45 by iescalon         ###   ########.fr        #
+#    Updated: 2023/12/21 12:26:36 by iescalon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRC         = ./srcs/ft_putchar.c ./srcs/ft_swap.c ./srcs/ft_putstr.c ./srcs/ft_strlen.c ./srcs/ft_strcmp.c
+SRC		= ./srcs/ft_putchar.c ./srcs/ft_putstr.c ./srcs/ft_strcmp.c ./srcs/ft_strlen.c ./srcs/ft_swap.c
 
-OBJS        = ${SRC:.c=.o}
+OBJS	= ${SRC: .c=.o}
 
-HEAD        = ./includes/
+HEAD	= ./includes/
 
-NAME        = libft.a
+NAME	= libft.a
 
-AR          = ar rcs
+AR		= ar rcs
 
-RM          = rm -f
+RM		= rm -f
 
-LIB         = ranlib
+LIB 	= ranlib
 
-GCC         = gcc
+CC		= cc
 
-CFLAGS      = -Wall -Wextra -Werror
+CFLAGS	= -Wall -Wextra -Werror
 
-all:        ${NAME}
+all:	${NAME}
 
 .c.o:
-            ${GCC} ${CFLAGS} -c -I ${HEAD} $< -o ${<:.c=.o}
+	${CC} ${CFLAGS} -c -I ${HEAD} $< -o ${<: .c=.o}
 
-${NAME}:    ${OBJS}
-            ${AR} ${NAME} ${OBJS}
-            ${LIB} ${NAME}
+${NAME}:	${OBJS}
+			${AR} ${NAME} ${OBJS}
+			${LIB} ${NAME}
+			
+clean:
+			rm -f ${OBJS}
 
-clean:      
-            rm -f ${OBJS}
+fclean:		clean
+			rm -f ${NAME}
+			
+re:			fclean all
 
-fclean:     clean
-            rm -f ${NAME}
-
-re:         fclean all
-
-.PHONY:     all clean fclean re
+.PHONY:		all clean fclean re

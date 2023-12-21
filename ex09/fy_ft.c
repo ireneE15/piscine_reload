@@ -3,20 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   fy_ft.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: iescalon <iescalon@student.42urduliz.com>  +#+  +:+       +#+        */
+/*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/12 12:48:13 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/12 13:05:43 by iescalon         ###   ########.fr       */
+/*   Updated: 2023/12/21 12:34:31 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdio.h>
 
 void	ft_ft(int *nbr)
 {
 	*nbr = 42;
 }
 /*
-#include <stdio.h>
-
 int	main(void)
 {
 	int	n;
