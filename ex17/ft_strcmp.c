@@ -6,7 +6,7 @@
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/14 15:54:11 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/20 12:18:11 by iescalon         ###   ########.fr       */
+/*   Updated: 2023/12/21 10:51:51 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,14 +21,7 @@ int	ft_strcmp(char *s1, char *s2)
 	{
 		i++;
 	}
-	if (s1[i] == s2[i])
-	{
-		return (0);
-	}
-	else
-	{
-		return (s1[i] - s2[i]);
-	}
+	return (s1[i] - s2[i]);
 }
 /*
 int	main(void) 
