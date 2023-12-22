@@ -6,7 +6,7 @@
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/21 13:47:08 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/21 14:48:03 by iescalon         ###   ########.fr       */
+/*   Updated: 2023/12/22 13:10:26 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,10 +26,11 @@ int	ft_strlen(char *str)
 
 int	is_length_greater_than_three(char *str)
 {
-    return (ft_strlen(str) > 3);
+	int length = ft_strlen(str);
+    return length > 3;
 }
 
-int	ft_count_if(char **tab, int (*f)(char*))
+int	ft_count_if(char **tab, int (*f)(char *))
 {
 	int	i; // Cuenta la cantidad de elementos en un array
 	int	count; // Cuenta la cantidad de elementos que cumplen la condición de una función del array
@@ -49,9 +50,9 @@ int	ft_count_if(char **tab, int (*f)(char*))
 
 int main(void)
 {
-    char *strings[] = {"apple", "banana", "orange", "kiwi", "grape"};
+    char *strings[] = {"apple", "banana", "orange", "kiwi", "grape", NULL};
 
-    int count = ft_count_if(strings, is_length_greater_than_three(&strings));
+    int count = ft_count_if(strings, is_length_greater_than_three);
 
     printf("Number of strings with length greater than 3: %d\n", count);
 
