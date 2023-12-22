@@ -6,12 +6,12 @@
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/21 13:47:08 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/22 13:10:26 by iescalon         ###   ########.fr       */
+/*   Updated: 2023/12/22 13:12:18 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
-
+/*
 int	ft_strlen(char *str)
 {
 	int	i;
@@ -29,7 +29,7 @@ int	is_length_greater_than_three(char *str)
 	int length = ft_strlen(str);
     return length > 3;
 }
-
+*/
 int	ft_count_if(char **tab, int (*f)(char *))
 {
 	int	i; // Cuenta la cantidad de elementos en un array
@@ -47,7 +47,7 @@ int	ft_count_if(char **tab, int (*f)(char *))
 	}
 	return (count);
 }
-
+/*
 int main(void)
 {
     char *strings[] = {"apple", "banana", "orange", "kiwi", "grape", NULL};
@@ -58,3 +58,4 @@ int main(void)
 
     return (0);
 }
+*/
