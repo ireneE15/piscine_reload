@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_sort_params.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: iescalon <iescalon@student.42urduliz.com>  +#+  +:+       +#+        */
+/*   By: irene <irene@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/15 12:45:17 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/18 10:31:32 by iescalon         ###   ########.fr       */
+/*   Updated: 2024/01/07 17:12:03 by irene            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,8 +57,8 @@ void	ft_print_params(int argc, char *argv[]) // Imprime los parametros ordenados
 
 int	main(int argc, char *argv[])
 {
-	int		s1;
-	int		s2;
+	int		s1; // Recorre los argumentos.
+	int		s2; // Compara los argumentos y realizar el intercambio.
 	char	*temp;
 
 	s1 = 1;

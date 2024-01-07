@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_div_mod.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
+/*   By: irene <irene@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/12 13:29:25 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/21 12:35:26 by iescalon         ###   ########.fr       */
+/*   Updated: 2023/12/27 16:09:24 by irene            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,8 @@ int	main(void)
 {
 	int	n;
 	int	m;
-	int	*di;
-	int	*mo;
+	int	di;
+	int	mo;
 
 	n = 10;
 	m = 3;

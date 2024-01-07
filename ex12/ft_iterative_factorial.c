@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_iterative_factorial.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
+/*   By: irene <irene@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/12 14:25:31 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/21 12:40:16 by iescalon         ###   ########.fr       */
+/*   Updated: 2023/12/27 16:12:40 by irene            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ int	main(void)
 	int	result;
 	int	number;
 
-	number = 4;
+	number = 5;
 	result = ft_iterative_factorial(number);
 	printf("El factorial de %d es %d\n", number, result);
 	return (0);

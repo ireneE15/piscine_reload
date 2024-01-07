@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_range.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
+/*   By: irene <irene@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/20 10:14:41 by iescalon          #+#    #+#             */
-/*   Updated: 2023/12/20 12:21:54 by iescalon         ###   ########.fr       */
+/*   Updated: 2024/01/07 17:30:36 by irene            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	*ft_range(int min, int max)
 	{
 		return (NULL);
 	}
-	str = (int *)malloc(sizeof(int) * (max - min));
+	str = (int *)malloc(sizeof(int) * (max - min)); // Multiplica el tamaño de un entero por la cantidad de elementos de un array.
 	while (min < max)
 	{
 		str[i] = min;
